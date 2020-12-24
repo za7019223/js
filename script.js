@@ -1,13 +1,10 @@
-// input marks three subject
+// start 
+var number = parseInt( prompt("number from user"));
 
-var subject1 = parseInt( prompt("enter the marks of a sbject"));
-
-var subject2 = parseInt( prompt("enter the marks of a sbject"));
-
-var subject3 = parseInt( prompt("enter the marks of a sbject"));
-
-var avg = (subject1 + subject2 +subject3) / 3;
- 
-if (avg >=80){
-    alert ("you are above standerd , Admission granted")
+if (number % 2 === 0) {
+    alert("entered number is even");
+    
+} else {
+    alert("entered number is odd")
+    
 }
