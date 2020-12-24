@@ -1,6 +1,6 @@
-// cecius value from user
-var celcius = prompt("value from user in celcius:");
-// convert celcius to farhenheit
-var fahrenhiet = 9/5*celcius+32;
-// result 
-console.log(fahrenhiet);
+// get height from user in inches
+var inches = prompt("user height in inches");
+// convert inches into centimeters
+var centimeteres = 2.54*inches;
+// display result
+console.log("hieght inches into centimeter",centimeteres);
